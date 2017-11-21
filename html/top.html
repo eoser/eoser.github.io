@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>top</title>
+		<script type="text/javascript" src="../js/top.js">
+		</script>
+		<link rel="stylesheet" href="../css/them.css" />
+	</head>
+
+	<body bgcolor="khaki">
+		<h1 align="center"><font color="saddlebrown">Eoser's Page!</font></h1>
+		<div align="center">
+			<table>
+				<tr>
+					<td>
+						<a href="../index.html" target="_top">首页</a>
+						<b>&nbsp;&nbsp;&nbsp;</b>
+					</td>
+					<td>
+						<a href="http://blog.eoser.wang" target="_blank">博客</a>
+						<b>&nbsp;&nbsp;&nbsp;</b>
+					</td>
+					<td>
+						<a href="http://mail.eoser.wang" target="_blank">邮箱</a>
+						<b>&nbsp;&nbsp;&nbsp;</b>
+					</td>
+					<td>
+						<a href="https://github.com/eoser" target="_blank">GitHub</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div align="right">
+			<form action="https://www.baidu.com/s" target="right" method="get" id="searchs" >
+				<select onclick="actionChange(this);" id="chooseSearch">
+					<option value="https://www.baidu.com/s" setName="wd" selected="selected">百度</option>
+					<option value="https://www.bing.com/search" setName="q">必应</option>
+					<option value="https://www.sogou.com/web" setName="query">搜狗</option>
+					<option value="https://www.so.com/s" setName="q">360</option>
+					<option value="https://s.taobao.com/search" setName="q">淘宝</option>
+					<option value="http://dict.youdao.com/search" setName="q">有道</option>
+					<option value="http://ss.chaoxing.com/search" setName="sw">超星</option>
+					<option value="http://xueshu.baidu.com/s" setName="wd">学术</option>
+					<option value="http://www.sounong.net/cerulean/comp.jsp" setName="q">农业</option>
+					<option value="http://rj.baidu.com/search/index/" setName="kw">软件</option>
+					<option value="http://search.efu.com.cn/Search.aspx" setName="keyword">服装</option>
+					<option value="http://www.xilinjie.com/s" setName="q">西盘</option>
+					<option value="http://www.pansou.com/" setName="q">P盘</option>
+					<option value="http://mi.talkingdata.com/search.html" setName="keyword">移观</option>
+					<option value="http://ly.so.com/s" setName="q">良医</option>
+					<option value="http://mingyi.sogou.com/mingyi" setName="query">眀医</option>
+					<option value="http://www.chinaso.com/search/pagesearch.htm" setName="q">中国</option>
+					<option value="http://s.wenjian.net/s.php" setName="t">FTP</option>
+					<option value="https://www.google.com/search" setName="q">谷歌</option>
+					<input list="often" type="search" name="wd" id="goInput" autofocus>
+					<datalist id="often">
+						<option value="天气"></option>
+					</datalist>
+					<input type="submit" value="GO">
+			</form>
+		</div>
+	</body>
+
+</html>
