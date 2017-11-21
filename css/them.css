@@ -1,0 +1,19 @@
+a:hover {
+	color: pink;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link {
+	color: #8B4513;
+}
+
+a:active {
+	color: #FFFF00;
+}
+
+a:visited {
+	color: #8B4513;
+}
